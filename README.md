@@ -1,5 +1,6 @@
 # springboot-kafka-microservices-project
 Maven project generated with com.a9ski:quick-start archetype
+![img_2.png](readme-pic%2Fimg_2.png)
 
 
 # Development guide
