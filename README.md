@@ -2,6 +2,10 @@
 Maven project generated with com.a9ski:quick-start archetype
 ![img_2.png](readme-pic%2Fimg_2.png)
 
+```bash
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+```
 
 # Development guide
 1. Install pre-commit (https://pre-commit.com/)
