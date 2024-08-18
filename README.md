@@ -26,10 +26,31 @@ This project demonstrates a microservices architecture using Spring Boot and Kaf
  ### Email Service
 Handles email notifications related to orders.
 
+## Run the service
 ```bash
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```
+
+### Order Service
+
+```bash
+cd order-service
+./mvnw spring-boot:run
+```
+### Stock Service
+
+```bash
+cd stock-service
+./mvnw spring-boot:run
+```
+### Email Service
+
+```bash
+cd email-service
+./mvnw spring-boot:run
+```
+
 
 ## Getting Started
 Prerequisites
